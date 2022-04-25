@@ -1,0 +1,23 @@
+.card {
+    padding: 1rem;
+    background-color: hsl(0, 0%, 94%);
+    border: 1px solid hsl(0, 0%, 92%);
+    border-radius: 10px;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.article-button {
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: left;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+}
