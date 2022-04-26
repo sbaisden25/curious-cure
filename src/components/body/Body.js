@@ -12,7 +12,7 @@ function Body() {
     }, [])
 
     const fetchData = async () => {
-        const {data} = await axios.get('https://api.kanye.rest/')
+        const {data} = await axios.get('https://curiouscure.herokuapp.com/')
 
         setArticle(data)
 }
@@ -21,7 +21,7 @@ function Body() {
   return (
 
 <div class="card container">
-    <p class="center">{article.quote}</p> 
+    <a href={article.article} class="center" target="_blank" rel="noopener noreferrer">{article.article}</a> 
 </div>
 
 

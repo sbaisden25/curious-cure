@@ -2,6 +2,11 @@ import './header.css';
 
 function Header() {
 
+    //Refresh button that makes new call to api
+    const refresh = () => {
+        window.location.reload(false);
+    }
+
 
 
   return (
@@ -12,17 +17,21 @@ function Header() {
       <h1>
         <a href="./">🪐 Curious Cure ☄️</a>
       </h1>
+
+    <br></br>
+
       <span>
         A free REST API for random interesting wikipedia articles
       </span>
     </div>
 
 <br></br>
+<br></br>
     
 
     <div className="lower">
-    <a href="https://api.wiki.rest">https://api.wiki.rest</a> 
-        <button>🔄 refresh</button>
+    <a href="https://curiouscure.herokuapp.com/">curious-cure.herokuapp.com</a> 
+    <button onClick={refresh}>🔄 refresh</button>
     </div>
 
 
