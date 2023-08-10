@@ -12,7 +12,7 @@ function Body() {
     }, [])
 
     const fetchData = async () => {
-        const {data} = await axios.get('https://curiouscure.herokuapp.com/')
+        const {data} = await axios.get('https://curiouscureapi.netlify.app/')
 
         setArticle(data)
 }

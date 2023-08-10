@@ -30,7 +30,7 @@ function Header() {
     
 
     <div className="lower">
-    <a href="https://curiouscure.herokuapp.com/">curious-cure.herokuapp.com</a> 
+    <a href="https://curiouscure.herokuapp.com/">curiouscure.herokuapp.com</a> 
     <button onClick={refresh}>🔄 refresh</button>
     </div>
 
